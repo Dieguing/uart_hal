@@ -1,5 +1,6 @@
 #include "main.h"
 #include "project_api.h"
+#include "project_config.h"
 
 void SendUartCommand (uint8_t addH, uint8_t addL, uint8_t dataH, uint8_t dataL)
 {

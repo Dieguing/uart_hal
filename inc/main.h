@@ -12,8 +12,6 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32l0xx_hal.h"
-#include "project_config.h"
-#include "project_api.h"
 
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);

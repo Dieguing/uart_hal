@@ -1,14 +1,9 @@
-#ifndef __CONFIG_H
-#define __CONFIG_H
+#ifndef __PROJECT_CONFIG_H
+#define __PROJECT_CONFIG_H
 
 /* Defines -----------------------------------*/
 #define TRUE  1
 #define FALSE 0
-
-/* Private variables ---------------------------------------------------------*/
-TIM_HandleTypeDef htim2;
-TIM_HandleTypeDef htim6;
-UART_HandleTypeDef huart2;
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);

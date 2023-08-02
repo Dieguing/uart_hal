@@ -4,6 +4,11 @@
   * @brief System Clock Configuration
   * @retval None
   */
+
+UART_HandleTypeDef huart2;
+TIM_HandleTypeDef htim2;
+TIM_HandleTypeDef htim6;
+
 void SystemClock_Config(void)
 {
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};

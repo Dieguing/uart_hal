@@ -45,7 +45,8 @@ CFLAGS += --specs=nosys.specs -Wl,-Map="project.map" -Wl,--gc-sections
 
 ###################################################
 
-SRCS =  ./src/main.c ./system/startup_stm32l053r8tx.s \
+SRCS =  ./src/main.c \
+./startup_stm32l053r8tx.s \
 ./src/project_config.c \
 ./src/project_api.c \
 ./drivers/CMSIS/Device/ST/STM32L0xx/Source/system_stm32l0xx.c \
@@ -59,8 +60,8 @@ SRCS =  ./src/main.c ./system/startup_stm32l053r8tx.s \
 ./drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c \
 ./drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c \
 ./drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c \
-./system/stm32l0xx_it.c \
-./system/stm32l0xx_hal_msp.c 
+./src/stm32l0xx_it.c \
+./src/stm32l0xx_hal_msp.c 
 
 ###################################################
 

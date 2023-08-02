@@ -10,8 +10,6 @@
 #include "main.h"
 #include "stm32l0xx_it.h"
 
-extern TIM_HandleTypeDef htim2;
-
 /******************************************************************************/
 /*           Cortex-M0+ Processor Interruption and Exception Handlers          */
 /******************************************************************************/

@@ -10,6 +10,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "stm32l0xx_hal.h"
 
 /**
   * Initializes the Global MSP.
